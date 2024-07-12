@@ -1,0 +1,1 @@
+commercelayer checkout --sku=TSHIRTMS000000FFFFFFLXXX --open

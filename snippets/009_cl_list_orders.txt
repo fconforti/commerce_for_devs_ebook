@@ -1,0 +1,27 @@
+> cl list orders
+
+Fetching orders... done
+[
+  {
+    id: 'DerhJOeBXK',
+    type: 'orders',
+    number: 64580744,
+    autorefresh: true,
+    place_async: false,
+    status: 'placed',
+    payment_status: 'authorized',
+    fulfillment_status: 'unfulfilled',
+    guest: true,
+    editable: false,
+    customer_email: 'filippo@commercefordevs.org',
+    language_code: 'en',
+    currency_code: 'USD',
+    ...
+    total_amount_with_taxes_cents: 4670,
+    total_amount_with_taxes_float: 46.7,
+    formatted_total_amount_with_taxes: '$46.70',
+    ...
+  }
+]
+
+Records: 1 of 1 | Page: 1 of 1

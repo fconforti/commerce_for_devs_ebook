@@ -1,0 +1,5 @@
+commercelayer app:login \
+  -i NanUVKb89zJ48on1vuux2_bBuCHUsiGG_P5tQA_hV5U \
+  -S market:code:US \
+  -o commerce-for-devs \
+  -a channel

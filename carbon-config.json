@@ -1,0 +1,40 @@
+{
+  "cli": {
+    "paddingVertical":"0px",
+    "paddingHorizontal":"0px",
+    "backgroundImage":null,
+    "backgroundImageSelection":null,
+    "backgroundMode":"color",
+    "backgroundColor":"rgba(255, 255, 255, 1)",
+    "dropShadow":false,
+    "windowTheme":"bw",
+    "language":"javascript",
+    "fontFamily":"Hack",
+    "fontSize":"14px",
+    "lineHeight":"150%",
+    "windowControls":false,
+    "widthAdjustment":false,
+    "lineNumbers":false,
+    "exportSize":"4x",
+    "watermark":false,
+    "squaredImage":false,
+    "hiddenCharacters":false,
+    "width":"680",
+    "custom": {
+      "background": "rgba(245, 245, 244, 1)",
+      "text": "rgb(120, 113, 108)",
+      "variable": "rgba(38, 38, 38, 1)",
+      "variable2": "rgba(38, 38, 38, 1)",
+      "attribute": "rgba(38, 38, 38, 1)",
+      "definition": "rgba(38, 38, 38, 1)",
+      "keyword": "rgba(38, 38, 38, 1)",
+      "operator": "rgba(38, 38, 38, 1)",
+      "property": "rgba(38, 38, 38, 1)",
+      "number": "rgb(29, 78, 216)",
+      "string": "rgba(21, 128, 61, 1)",
+      "comment": "rgba(185, 28, 28, 1)",
+      "meta": "rgba(168, 162, 158, 1)",
+      "tag": "rgba(0, 0, 0, 1)"
+    }    
+  }
+}

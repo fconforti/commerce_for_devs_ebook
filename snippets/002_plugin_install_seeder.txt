@@ -1,0 +1,1 @@
+commercelayer plugins:install seeder
