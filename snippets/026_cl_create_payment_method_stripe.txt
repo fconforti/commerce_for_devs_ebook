@@ -1,0 +1,55 @@
+> cl create payment_method -a payment_source_type='stripe_payment' -r market='AonEVhabyl' payment_gateway='ajYQYsmGOj'
+
+{
+  id: 'wEZLZsKdak',
+  type: 'payment_methods',
+  name: 'Stripe Payment',
+  payment_source_type: 'stripe_payments',
+  currency_code: 'USD',
+  moto: false,
+  require_capture: true,
+  auto_place: false,
+  auto_capture: false,
+  price_amount_cents: 0,
+  price_amount_float: 0,
+  formatted_price_amount: '$0.00',
+  auto_capture_max_amount_cents: null,
+  auto_capture_max_amount_float: null,
+  formatted_auto_capture_max_amount: null,
+  disabled_at: null,
+  created_at: '2024-07-13T11:32:04.980Z',
+  updated_at: '2024-07-13T11:32:04.980Z',
+  reference: null,
+  reference_origin: null,
+  metadata: {},
+  market: {
+    id: 'AonEVhabyl',
+    type: 'markets',
+    number: 23245,
+    name: 'USA',
+    code: 'US',
+    facebook_pixel_id: null,
+    checkout_url: null,
+    external_prices_url: null,
+    external_order_validation_url: null,
+    private: false,
+    disabled_at: null,
+    created_at: '2024-07-12T15:01:55.588Z',
+    updated_at: '2024-07-13T05:52:00.612Z',
+    reference: 'market_2',
+    reference_origin: 'CLI',
+    metadata: {}
+  },
+  payment_gateway: {
+    id: 'ajYQYsmGOj',
+    type: 'payment_gateways',
+    name: 'Stripe US',
+    created_at: '2024-07-13T11:26:00.209Z',
+    updated_at: '2024-07-13T11:26:00.491Z',
+    reference: null,
+    reference_origin: null,
+    metadata: {}
+  }
+}
+
+Successfully created new resource of type payment_methods with id wEZLZsKdak

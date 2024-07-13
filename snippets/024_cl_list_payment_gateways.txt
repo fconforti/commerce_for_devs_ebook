@@ -1,0 +1,17 @@
+> cl list payment_gateways
+
+Fetching payment gateways... done
+[
+  {
+    id: 'BjZLVsLYDx',
+    type: 'manual_gateways',
+    name: 'Manual Gateway',
+    created_at: '2024-07-12T15:02:00.849Z',
+    updated_at: '2024-07-12T15:02:00.849Z',
+    reference: 'payment_gateway_1',
+    reference_origin: 'CLI',
+    metadata: {}
+  }
+]
+
+Records: 1 of 1 | Page: 1 of 1

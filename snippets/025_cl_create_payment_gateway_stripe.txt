@@ -1,0 +1,18 @@
+> cl create stripe_gateway -a name='Stripe US' login='sk_test_51Pc407IvFzjMJOyZNd08Z0qFY9z3gFjkQZqCMGR9vGzfPjfQhqiOJgB7vOJgrHKuhn2Dqvm9N4kGv8kG60ejiba000TTCT3Xpo' publishable_key='pk_test_51Pc407IvFzjMJOyZ1T8IRpnamtl6T6u9adAQ0QnzR691TNIYjYPuIw1LLBW7MAbq0MSa6sLDHegTJ1aGL4QK0fbN00DUHh2t2G'
+
+{
+  id: 'ajYQYsmGOj',
+  type: 'stripe_gateways',
+  name: 'Stripe US',
+  created_at: '2024-07-13T11:26:00.209Z',
+  updated_at: '2024-07-13T11:26:00.491Z',
+  reference: null,
+  reference_origin: null,
+  metadata: {},
+  auto_payments: null,
+  webhook_endpoint_id: 'we_1Pc4********************',
+  webhook_endpoint_secret: 'whsec_h7JMcVWLdnZS********************',
+  webhook_endpoint_url: 'https://core.commercelayer.io/webhook_callbacks/stripe_gateways/ajYQYsmGOj/eu-west-1'
+}
+
+Successfully created new resource of type stripe_gateways with id ajYQYsmGOj

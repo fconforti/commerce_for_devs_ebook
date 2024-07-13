@@ -1,0 +1,56 @@
+> cl list prices -i price_list sku
+
+Fetching prices... done
+[
+  {
+    id: 'KeQUvLMQYR',
+    type: 'prices',
+    currency_code: 'USD',
+    sku_code: 'TSHIRTMS000000FFFFFFLXXX',
+    amount_cents: 3970,
+    amount_float: 39.7,
+    formatted_amount: '$39.70',
+    compare_at_amount_cents: 4440,
+    compare_at_amount_float: 44.4,
+    formatted_compare_at_amount: '$44.40',
+    created_at: '2024-07-13T05:07:34.583Z',
+    updated_at: '2024-07-13T05:07:34.583Z',
+    reference: 'price_465',
+    reference_origin: 'CLI',
+    metadata: {},
+    price_list: {
+      id: 'VBQPoCvQxL',
+      type: 'price_lists',
+      name: 'USD Price List',
+      code: null,
+      currency_code: 'USD',
+      tax_included: false,
+      created_at: '2024-07-12T15:01:53.741Z',
+      updated_at: '2024-07-12T15:01:53.741Z',
+      reference: 'price_list_2',
+      reference_origin: 'CLI',
+      metadata: {}
+    },
+    sku: {
+      id: 'nkGgSKOxqL',
+      type: 'skus',
+      code: 'TSHIRTMS000000FFFFFFLXXX',
+      name: 'Black Men T-Shirt with White Logo (L)',
+      description: "This is THE classic t-shirt. Its fine jersey cotton construction makes it extremely soft and comfortable to wear, so it's a good choice for a day-to-day outfit — it's durable and can withstand several washings while retaining its shape and color.",
+      image_url: 'https://data.commercelayer.app/seed/images/skus/TSHIRTMS000000FFFFFFLXXX_FLAT.png',
+      pieces_per_pack: null,
+      weight: null,
+      unit_of_weight: null,
+      hs_tariff_number: null,
+      do_not_ship: false,
+      do_not_track: false,
+      created_at: '2024-07-13T05:07:32.977Z',
+      updated_at: '2024-07-13T05:07:32.977Z',
+      reference: 'sku_215',
+      reference_origin: 'CLI',
+      metadata: {}
+    }
+  }
+]
+
+Records: 1 of 1 | Page: 1 of 1

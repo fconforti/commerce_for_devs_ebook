@@ -1,0 +1,23 @@
+> cl list shipping_zones
+
+Fetching shipping zones... done
+[
+  {
+    id: 'kQwxmtxxBO',
+    type: 'shipping_zones',
+    name: 'Worldwide',
+    country_code_regex: null,
+    not_country_code_regex: null,
+    state_code_regex: null,
+    not_state_code_regex: null,
+    zip_code_regex: null,
+    not_zip_code_regex: null,
+    created_at: '2024-07-12T15:01:57.666Z',
+    updated_at: '2024-07-12T15:01:57.666Z',
+    reference: 'shipping_zone_3',
+    reference_origin: 'CLI',
+    metadata: {}
+  }
+]
+
+Records: 1 of 1 | Page: 1 of 1

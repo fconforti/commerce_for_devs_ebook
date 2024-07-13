@@ -1,0 +1,32 @@
+cl list stock_items -i stock_location
+
+Fetching stock items... done
+[
+  {
+    id: 'DxofDGnVLR',
+    type: 'stock_items',
+    sku_code: 'TSHIRTMS000000FFFFFFLXXX',
+    quantity: 522,
+    created_at: '2024-07-13T05:07:33.677Z',
+    updated_at: '2024-07-13T05:07:33.677Z',
+    reference: 'stock_item_465',
+    reference_origin: 'CLI',
+    metadata: {},
+    stock_location: {
+      id: 'bkEeQuYLyk',
+      type: 'stock_locations',
+      number: 20701,
+      name: 'US Warehouse',
+      code: null,
+      label_format: 'PDF',
+      suppress_etd: false,
+      created_at: '2024-07-12T15:01:50.467Z',
+      updated_at: '2024-07-12T15:01:50.467Z',
+      reference: 'stock_location_2',
+      reference_origin: 'CLI',
+      metadata: {}
+    }
+  }
+]
+
+Records: 1 of 1 | Page: 1 of 1

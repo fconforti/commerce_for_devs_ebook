@@ -1,0 +1,33 @@
+> cl update market AonEVhabyl -r tax_calculator='kvzeLTdnWN'
+
+{
+  id: 'AonEVhabyl',
+  type: 'markets',
+  number: 23245,
+  name: 'USA',
+  code: 'US',
+  facebook_pixel_id: null,
+  checkout_url: null,
+  external_prices_url: null,
+  external_order_validation_url: null,
+  private: false,
+  disabled_at: null,
+  shared_secret: '********************************',
+  created_at: '2024-07-12T15:01:55.588Z',
+  updated_at: '2024-07-13T05:52:00.612Z',
+  reference: 'market_2',
+  reference_origin: 'CLI',
+  metadata: {},
+  tax_calculator: {
+    id: 'kvzeLTdnWN',
+    type: 'tax_calculators',
+    name: 'US sales taxes',
+    created_at: '2024-07-13T05:45:53.919Z',
+    updated_at: '2024-07-13T05:45:53.919Z',
+    reference: null,
+    reference_origin: null,
+    metadata: {}
+  }
+}
+
+Successfully updated resource of type markets with id AonEVhabyl

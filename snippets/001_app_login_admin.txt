@@ -1,5 +1,5 @@
 commercelayer app:login \
  -i KRNJ29CbUBAFvQlge_QLM_0Q6M7iQBkSVMY6hcSdgws \
- -s XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX \
+ -s ******************************************* \
  -o commerce-for-devs \
  -a admin

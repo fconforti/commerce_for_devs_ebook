@@ -1,0 +1,36 @@
+> cl create tax_rule -a name='US flat rate' tax_rate=0.10 country_code_regex=US -r manual_tax_calculator='kvzeLTdnWN'
+
+{
+  id: 'wPNrYHYAAP',
+  type: 'tax_rules',
+  name: 'US flat rate',
+  tax_rate: '0.1',
+  country_code_regex: 'US',
+  not_country_code_regex: null,
+  state_code_regex: null,
+  not_state_code_regex: null,
+  zip_code_regex: null,
+  not_zip_code_regex: null,
+  freight_taxable: false,
+  payment_method_taxable: false,
+  gift_card_taxable: false,
+  adjustment_taxable: false,
+  breakdown: null,
+  created_at: '2024-07-13T05:47:38.599Z',
+  updated_at: '2024-07-13T05:47:38.599Z',
+  reference: null,
+  reference_origin: null,
+  metadata: {},
+  manual_tax_calculator: {
+    id: 'kvzeLTdnWN',
+    type: 'manual_tax_calculators',
+    name: 'US sales taxes',
+    created_at: '2024-07-13T05:45:53.919Z',
+    updated_at: '2024-07-13T05:45:53.919Z',
+    reference: null,
+    reference_origin: null,
+    metadata: {}
+  }
+}
+
+Successfully created new resource of type tax_rules with id wPNrYHYAAP

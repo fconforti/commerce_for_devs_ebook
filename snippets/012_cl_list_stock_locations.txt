@@ -1,0 +1,54 @@
+> cl list stock_locations -i address
+
+Fetching stock locations... done
+[
+  {
+    id: 'bkEeQuYLyk',
+    type: 'stock_locations',
+    number: 20701,
+    name: 'US Warehouse',
+    code: null,
+    label_format: 'PDF',
+    suppress_etd: false,
+    created_at: '2024-07-12T15:01:50.467Z',
+    updated_at: '2024-07-12T15:01:50.467Z',
+    reference: 'stock_location_2',
+    reference_origin: 'CLI',
+    metadata: {},
+    address: {
+      id: 'dRMNunGKEm',
+      type: 'addresses',
+      business: true,
+      first_name: null,
+      last_name: null,
+      company: 'The Brand USA Inc.',
+      full_name: 'The Brand USA Inc.',
+      line_1: '50 Hartz Way',
+      line_2: null,
+      city: 'Secaucus, New York',
+      zip_code: '7094',
+      state_code: 'NY',
+      country_code: 'US',
+      phone: '+1.201.22.33.444',
+      full_address: '50 Hartz Way, 7094 Secaucus, New York NY (US) +1.201.22.33.444',
+      name: 'The Brand USA Inc., 50 Hartz Way, 7094 Secaucus, New York NY (US) +1.201.22.33.444',
+      email: 'touch@example.com',
+      notes: null,
+      lat: null,
+      lng: null,
+      is_localized: false,
+      is_geocoded: false,
+      provider_name: null,
+      map_url: null,
+      static_map_url: null,
+      billing_info: null,
+      created_at: '2024-07-12T15:01:47.735Z',
+      updated_at: '2024-07-12T15:01:47.735Z',
+      reference: 'address_2',
+      reference_origin: 'CLI',
+      metadata: {}
+    }
+  }
+]
+
+Records: 1 of 1 | Page: 1 of 1

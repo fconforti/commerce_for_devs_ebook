@@ -1,0 +1,37 @@
+> cl list skus -i shipping_category
+
+Fetching skus... done
+[
+  {
+    id: 'nkGgSKOxqL',
+    type: 'skus',
+    code: 'TSHIRTMS000000FFFFFFLXXX',
+    name: 'Black Men T-Shirt with White Logo (L)',
+    description: "This is THE classic t-shirt. Its fine jersey cotton construction makes it extremely soft and comfortable to wear, so it's a good choice for a day-to-day outfit — it's durable and can withstand several washings while retaining its shape and color.",
+    image_url: 'https://data.commercelayer.app/seed/images/skus/TSHIRTMS000000FFFFFFLXXX_FLAT.png',
+    pieces_per_pack: null,
+    weight: null,
+    unit_of_weight: null,
+    hs_tariff_number: null,
+    do_not_ship: false,
+    do_not_track: false,
+    created_at: '2024-07-13T05:07:32.977Z',
+    updated_at: '2024-07-13T05:07:32.977Z',
+    reference: 'sku_215',
+    reference_origin: 'CLI',
+    metadata: {},
+    shipping_category: {
+      id: 'gwDrDFqjjK',
+      type: 'shipping_categories',
+      name: 'Merchandising',
+      code: null,
+      created_at: '2024-07-12T15:01:56.628Z',
+      updated_at: '2024-07-12T15:01:56.628Z',
+      reference: 'shipping_category_1',
+      reference_origin: 'CLI',
+      metadata: {}
+    }
+  }
+]
+
+Records: 1 of 1 | Page: 1 of 1

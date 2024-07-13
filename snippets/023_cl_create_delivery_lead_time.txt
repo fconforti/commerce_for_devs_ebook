@@ -1,0 +1,60 @@
+> cl create delivery_lead_time -a min_hours=24 max_hours=48 -r shipping_method='bNegQFoZmE' stock_location='bkEeQuYLyk'
+
+{
+  id: 'LpyRVFyERO',
+  type: 'delivery_lead_times',
+  min_hours: 24,
+  max_hours: 48,
+  min_days: 1,
+  max_days: 2,
+  created_at: '2024-07-13T06:24:25.509Z',
+  updated_at: '2024-07-13T06:24:25.509Z',
+  reference: null,
+  reference_origin: null,
+  metadata: {},
+  stock_location: {
+    id: 'bkEeQuYLyk',
+    type: 'stock_locations',
+    number: 20701,
+    name: 'US Warehouse',
+    code: null,
+    label_format: 'PDF',
+    suppress_etd: false,
+    created_at: '2024-07-12T15:01:50.467Z',
+    updated_at: '2024-07-12T15:01:50.467Z',
+    reference: 'stock_location_2',
+    reference_origin: 'CLI',
+    metadata: {}
+  },
+  shipping_method: {
+    id: 'bNegQFoZmE',
+    type: 'shipping_methods',
+    name: 'Standard Shipping',
+    scheme: 'flat',
+    currency_code: 'USD',
+    external_prices_url: null,
+    price_amount_cents: 700,
+    price_amount_float: 7,
+    formatted_price_amount: '$7.00',
+    free_over_amount_cents: 9900,
+    free_over_amount_float: 99,
+    formatted_free_over_amount: '$99.00',
+    use_subtotal: false,
+    price_amount_for_shipment_cents: 700,
+    price_amount_for_shipment_float: 7,
+    formatted_price_amount_for_shipment: '$7.00',
+    min_weight: null,
+    max_weight: null,
+    unit_of_weight: null,
+    disabled_at: null,
+    circuit_state: null,
+    circuit_failure_count: null,
+    created_at: '2024-07-12T15:01:59.802Z',
+    updated_at: '2024-07-12T15:01:59.802Z',
+    reference: 'shipping_method_5',
+    reference_origin: 'CLI',
+    metadata: {}
+  }
+}
+
+Successfully created new resource of type delivery_lead_times with id LpyRVFyERO
