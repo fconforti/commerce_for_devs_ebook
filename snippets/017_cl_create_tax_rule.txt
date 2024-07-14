@@ -11,7 +11,7 @@
   not_state_code_regex: null,
   zip_code_regex: null,
   not_zip_code_regex: null,
-  freight_taxable: false,
+  freight_taxable: false, // Shipping cost is not taxable
   payment_method_taxable: false,
   gift_card_taxable: false,
   adjustment_taxable: false,

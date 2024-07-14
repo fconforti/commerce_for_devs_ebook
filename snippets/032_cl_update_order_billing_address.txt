@@ -1,0 +1,14 @@
+> cl update order 'RKahzVaoKD' -r billing_address=addresses/bzkouEXxxZ
+
+{
+  id: 'RKahzVaoKD',
+  type: 'orders',
+  // More attributes...
+  billing_address: {
+    id: 'bzkouEXxxZ',
+    type: 'addresses',
+    // More attributes...
+  }
+}
+
+Successfully updated resource of type orders with id RKahzVaoKD

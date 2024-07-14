@@ -14,7 +14,7 @@ Fetching markets... done
     external_order_validation_url: null,
     private: false,
     disabled_at: null,
-    shared_secret: '********************************',
+    shared_secret: 'aa97c233************************',
     created_at: '2024-07-12T15:01:55.588Z',
     updated_at: '2024-07-12T15:01:55.588Z',
     reference: 'market_2',

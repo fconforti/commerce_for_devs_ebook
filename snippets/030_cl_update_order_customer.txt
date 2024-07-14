@@ -1,0 +1,11 @@
+> cl update order 'RKahzVaoKD' -a customer_email=john@example.com -i customer
+
+{
+  id: 'RKahzVaoKD',
+  type: 'orders',
+  customer_email: 'john@example.com',
+  customer: { id: 'nWpdhjZAzp', type: 'customers' }
+  // More attributes...
+}
+
+Successfully updated resource of type orders with id RKahzVaoKD

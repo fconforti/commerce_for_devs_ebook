@@ -1,0 +1,20 @@
+> cl update order 'RKahzVaoKD' -r payment_method='wEZLZsKdak'
+
+{
+  id: 'RKahzVaoKD',
+  type: 'orders',
+  formatted_subtotal_amount: '$79.40',
+  formatted_payment_method_amount: '$0.00', // Payment method is free
+  formatted_total_tax_amount: '$7.94',
+  formatted_total_amount: '$86.40',
+  formatted_total_amount_with_taxes: '$94.34',
+  // More attributes...
+  payment_method: {
+    id: 'wEZLZsKdak',
+    type: 'payment_methods',
+    name: 'Stripe Payment',
+    // More attributes...
+  }
+}
+
+Successfully updated resource of type orders with id RKahzVaoKD

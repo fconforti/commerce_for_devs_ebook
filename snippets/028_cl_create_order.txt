@@ -1,0 +1,22 @@
+> cl create order -i market
+
+Refreshing access token ...... done
+{
+  id: 'RKahzVaoKD',
+  type: 'orders',
+  number: 64766720,
+  autorefresh: true,
+  place_async: false,
+  status: 'draft',
+  payment_status: 'unpaid',
+  fulfillment_status: 'unfulfilled',
+  guest: true,
+  editable: true,
+  customer_email: null,
+  language_code: 'en',
+  currency_code: 'USD',
+  market: { id: 'AonEVhabyl', type: 'markets' },
+  // More attributes...
+}
+
+Successfully created new resource of type orders with id RKahzVaoKD

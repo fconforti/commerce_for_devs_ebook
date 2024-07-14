@@ -1,0 +1,23 @@
+> cl retrieve order 'RKahzVaoKD' -i available_payment_methods
+
+{
+  id: 'RKahzVaoKD',
+  type: 'orders',
+  // More attributes...
+  available_payment_methods: [
+    {
+      id: 'wEZLZsKdak',
+      type: 'payment_methods',
+      name: 'Stripe Payment',
+      formatted_price_amount: '$0.00',
+      // More attributes...
+    },
+    {
+      id: 'ekyvxsxlKM',
+      type: 'payment_methods',
+      name: 'Wire Transfer',
+      formatted_price_amount: '$0.00',
+      // More attributes...
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+> cl retrieve order 'RKahzVaoKD' -i shipments.available_shipping_methods
+
+{
+  id: 'RKahzVaoKD',
+  type: 'orders',
+  // More attributes...
+  shipments: [
+    {
+      id: 'eMWdCoQwvO',
+      type: 'shipments',
+      // More attributes...
+      available_shipping_methods: [
+        {
+          id: 'bNegQFoZmE',
+          type: 'shipping_methods',
+          name: 'Standard Shipping',
+          scheme: 'flat',
+          currency_code: 'USD',
+          external_prices_url: null,
+          price_amount_cents: 700,
+          price_amount_float: 7,
+          formatted_price_amount: '$7.00',
+          formatted_free_over_amount: '$99.00',          
+          formatted_price_amount_for_shipment: '$7.00',          
+          // More attributes...
+        }
+      ]
+    }
+  ]
+}

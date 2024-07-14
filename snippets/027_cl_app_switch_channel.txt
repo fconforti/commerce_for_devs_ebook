@@ -1,0 +1,3 @@
+> cl app:switch -a channel
+
+Current application: Checkout (commerce-for-devs) [ Commerce for Devs | sales_channel | test | channel ] (Scope: market:code:US)

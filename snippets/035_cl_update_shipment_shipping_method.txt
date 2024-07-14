@@ -1,0 +1,25 @@
+> cl update shipment 'eMWdCoQwvO' -r shipping_method='bNegQFoZmE' -i order
+
+{
+  id: 'eMWdCoQwvO',
+  type: 'shipments',
+  // More attributes...
+  order: {
+    id: 'RKahzVaoKD',
+    type: 'orders',
+    formatted_subtotal_amount: '$79.40',
+    formatted_shipping_amount: '$7.00',
+    formatted_total_tax_amount: '$7.94', // Shipping cost is not taxable
+    formatted_total_amount: '$86.40',
+    formatted_total_amount_with_taxes: '$94.34',
+    // More attributes...
+  },  
+  shipping_method: {
+    id: 'bNegQFoZmE',
+    type: 'shipping_methods',
+    name: 'Standard Shipping',
+    // More attributes...
+  }
+}
+
+Successfully updated resource of type shipments with id eMWdCoQwvO

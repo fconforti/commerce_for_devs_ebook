@@ -22,7 +22,7 @@
     "width":"680",
     "custom": {
       "background": "rgba(245, 245, 244, 1)",
-      "text": "rgb(120, 113, 108)",
+      "text": "rgba(120, 113, 108, 1)",
       "variable": "rgba(38, 38, 38, 1)",
       "variable2": "rgba(38, 38, 38, 1)",
       "attribute": "rgba(38, 38, 38, 1)",
@@ -30,9 +30,9 @@
       "keyword": "rgba(38, 38, 38, 1)",
       "operator": "rgba(38, 38, 38, 1)",
       "property": "rgba(38, 38, 38, 1)",
-      "number": "rgb(29, 78, 216)",
+      "number": "rgba(29, 78, 216, 1)",
       "string": "rgba(21, 128, 61, 1)",
-      "comment": "rgba(185, 28, 28, 1)",
+      "comment": "rgba(29, 78, 216, 1)",
       "meta": "rgba(168, 162, 158, 1)",
       "tag": "rgba(0, 0, 0, 1)"
     }    
