@@ -1,0 +1,19 @@
+> cl create webhook -a topic='orders.place' callback_url='https://b537-87-17-205-198.ngrok-free.app/callback'
+
+  {
+    id: 'YdEkGCnbDP',
+    type: 'webhooks',
+    name: 'Webhook #14827',
+    topic: 'orders.place',
+    callback_url: 'https://b537-87-17-205-198.ngrok-free.app/callback',
+    include_resources: [],
+    disabled_at: null,
+    circuit_state: 'closed',
+    circuit_failure_count: 0,
+    shared_secret: 'da043ad3750c3c2548a452a5dc07fb38',
+    created_at: '2024-07-16T06:48:52.047Z',
+    updated_at: '2024-07-16T06:48:52.047Z',
+    reference: null,
+    reference_origin: null,
+    metadata: {}
+  }

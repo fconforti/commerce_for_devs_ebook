@@ -1,0 +1,11 @@
+> stripe payment_intents confirm pi_3PcjFzIvFzjMJOyZ22tFIzLm --payment-method=pm_card_mastercard
+
+{
+  "id": "pi_3PcjFzIvFzjMJOyZ22tFIzLm",
+  "object": "payment_intent",
+  "amount": 9434,
+  "amount_capturable": 9434, // Confirmed
+  "payment_method": "pm_1PcjiQIvFzjMJOyZXzCwlt6U",
+  "status": "requires_capture",  
+  // More attributes...
+}

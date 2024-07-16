@@ -1,0 +1,14 @@
+> brew install ngrok
+> ngrok authtoken 2PeR28ozTyTTdMmJJde142zME6M_5vHXKPViNmfEAeEtmESUm
+> ngrok http 3000
+
+Session Status                online
+Account                       filippo@commercefordevs.org (Plan: Free)
+Version                       3.12.1
+Region                        Europe (eu)
+Latency                       26ms
+Web Interface                 http://127.0.0.1:4040
+Forwarding                    https://0bf7-87-17-205-198.ngrok-free.app -> http://localhost:3000
+
+Connections                   ttl     opn     rt1     rt5     p50     p90
+                              0       0       0.00    0.00    0.00    0.00

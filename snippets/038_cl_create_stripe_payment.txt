@@ -1,0 +1,28 @@
+> cl create stripe_payment -r order='RKahzVaoKD'
+
+{
+  id: 'YDvOSjKAln',
+  type: 'stripe_payments',
+  stripe_id: 'pi_3Pcj********************',
+  client_secret: 'pi_3PcjFzIvFzjMJOyZ22tFIzLm_secret_dFlTj********************',
+  charge_id: null,
+  publishable_key: 'pk_test_51Pc407IvFzjMJOyZ1T8IRpnamtl6T6u9adAQ0QnzR691TNIYjYPuIw1LLBW7MAbq0MSa6sLDHegTJ1aGL4QK0fbN00DUHh2t2G',
+  options: { intent_amount_cents: 9434 },
+  payment_method: {},
+  mismatched_amounts: false,
+  return_url: null,
+  receipt_email: null,
+  payment_instrument: { issuer_type: 'card' },
+  created_at: '2024-07-15T07:23:35.874Z',
+  updated_at: '2024-07-15T07:23:35.874Z',
+  reference: null,
+  reference_origin: null,
+  metadata: {},
+  order: {
+    id: 'RKahzVaoKD',
+    type: 'orders',
+    // Other attributes...
+  }
+}
+
+Successfully created new resource of type stripe_payments with id YDvOSjKAln

@@ -1,0 +1,18 @@
+> stripe payment_intents list --limit=1
+
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "pi_3PcjFzIvFzjMJOyZ22tFIzLm",
+      "object": "payment_intent",
+      "amount": 9434,
+      "amount_capturable": 0,
+      "payment_method": null,
+      "status": "requires_payment_method",
+      // More attributes...
+    }
+  ],
+  "has_more": false,
+  "url": "/v1/payment_intents"
+}

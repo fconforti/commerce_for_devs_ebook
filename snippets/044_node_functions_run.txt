@@ -1,0 +1,4 @@
+> npm install express --save
+> node functions.js
+
+Functions listening at http://localhost:3000
