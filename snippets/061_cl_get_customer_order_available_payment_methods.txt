@@ -1,0 +1,7 @@
+> cl retrieve order last -i available_payment_methods -f available_payment_methods payment_methods/id 
+
+{
+  id: 'voJhMEekWm',
+  type: 'orders',
+  available_payment_methods: [ { id: 'wEZLZsKdak', type: 'payment_methods' }, { id: 'ekyvxsxlKM', type: 'payment_methods' } ]
+}

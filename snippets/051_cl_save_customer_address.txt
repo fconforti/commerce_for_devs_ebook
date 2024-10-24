@@ -1,0 +1,35 @@
+> cl update order last -a _save_billing_address_to_customer_address_book=true -i customer.customer_addresses -f customer
+
+{
+  id: 'gojhLAKmyK',
+  type: 'orders',
+  customer: {
+    id: 'nWpdhjZAzp',
+    type: 'customers',
+    email: 'john@example.com',
+    status: 'repeat',
+    has_password: true,
+    total_orders_count: 2,
+    shopper_reference: 'john@example.com',
+    created_at: '2024-07-14T06:45:31.722Z',
+    updated_at: '2024-10-24T09:14:41.210Z',
+    reference: null,
+    reference_origin: null,
+    metadata: {},
+    customer_addresses: [
+      {
+        id: 'xnpQhrPZaq',
+        type: 'customer_addresses',
+        name: 'John Doe, 3645 Geneva Street, 10011 New York NY (US) +1.201.22.33.444',
+        customer_email: 'john@example.com',
+        created_at: '2024-10-24T08:34:05.945Z',
+        updated_at: '2024-10-24T08:34:05.945Z',
+        reference: null,
+        reference_origin: null,
+        metadata: {}
+      }
+    ]
+  }
+}
+
+Successfully updated resource of type orders with id gojhLAKmyK

@@ -1,0 +1,78 @@
+> stripe payment_methods retrieve pm_1QDN73IvFzjMJOyZso8OqWyW --expand=customer
+
+{
+  "id": "pm_1QDN73IvFzjMJOyZso8OqWyW",
+  "object": "payment_method",
+  "allow_redisplay": "unspecified",
+  "billing_details": {
+    "address": {
+      "city": null,
+      "country": null,
+      "line1": null,
+      "line2": null,
+      "postal_code": null,
+      "state": null
+    },
+    "email": null,
+    "name": null,
+    "phone": null
+  },
+  "card": {
+    "brand": "mastercard",
+    "checks": {
+      "address_line1_check": null,
+      "address_postal_code_check": null,
+      "cvc_check": "pass"
+    },
+    "country": "US",
+    "display_brand": "mastercard",
+    "exp_month": 10,
+    "exp_year": 2025,
+    "fingerprint": "oy4PiO3fwLcwdn7U",
+    "funding": "credit",
+    "generated_from": null,
+    "last4": "4444",
+    "networks": {
+      "available": [
+        "mastercard"
+      ],
+      "preferred": null
+    },
+    "three_d_secure_usage": {
+      "supported": true
+    },
+    "wallet": null
+  },
+  "created": 1729761230,
+  "customer": {
+    "id": "cus_R5YGUZwJX4M0I0",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1729761433,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": null,
+    "discount": null,
+    "email": "john@example.com",
+    "invoice_prefix": "41B322CD",
+    "invoice_settings": {
+      "custom_fields": null,
+      "default_payment_method": null,
+      "footer": null,
+      "rendering_options": null
+    },
+    "livemode": false,
+    "metadata": {},
+    "name": null,
+    "phone": null,
+    "preferred_locales": [],
+    "shipping": null,
+    "tax_exempt": "none",
+    "test_clock": null
+  },
+  "livemode": false,
+  "metadata": {},
+  "type": "card"
+}

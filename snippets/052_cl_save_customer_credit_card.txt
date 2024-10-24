@@ -1,0 +1,36 @@
+> cl update order last -a _save_payment_source_to_customer_wallet=true -i customer.customer_payment_sources -f customer
+
+{
+  id: 'gojhLAKmyK',
+  type: 'orders',
+  customer: {
+    id: 'nWpdhjZAzp',
+    type: 'customers',
+    email: 'john@example.com',
+    status: 'repeat',
+    has_password: true,
+    total_orders_count: 2,
+    shopper_reference: 'john@example.com',
+    created_at: '2024-07-14T06:45:31.722Z',
+    updated_at: '2024-10-24T09:14:41.210Z',
+    reference: null,
+    reference_origin: null,
+    metadata: {},
+    customer_payment_sources: [
+      {
+        id: 'VDNoNsZGpL',
+        type: 'customer_payment_sources',
+        name: 'stripe_payment #1110322',
+        customer_token: 'cus_R5YGUZwJX4M0I0',
+        payment_source_token: 'pm_1QDN73IvFzjMJOyZso8OqWyW',
+        created_at: '2024-10-24T09:17:13.695Z',
+        updated_at: '2024-10-24T09:17:13.695Z',
+        reference: null,
+        reference_origin: null,
+        metadata: {}
+      }
+    ]
+  }
+}
+
+Successfully updated resource of type orders with id gojhLAKmyK

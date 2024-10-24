@@ -1,7 +1,7 @@
-> cl create line_item -a quantity=2 -r order='RKahzVaoKD' item='skus/nkGgSKOxqL'
+> cl create line_item -a quantity=2 -r order=last item='skus/last'
 
 {
-  id: 'eYRtOdrjDq',
+  id: 'JbZtxdXOOj',
   type: 'line_items',
   sku_code: 'TSHIRTMS000000FFFFFFLXXX',
   bundle_code: null,
@@ -26,7 +26,7 @@
   tax_amount_cents: 0,
   tax_amount_float: 0,
   formatted_tax_amount: '$0.00',
-  name: 'Black Men T-Shirt with White Logo (L)',
+  name: 'Men's Black T-Shirt with White Logo (L)',
   image_url: 'https://data.commercelayer.app/seed/images/skus/TSHIRTMS000000FFFFFFLXXX_FLAT.png',
   discount_breakdown: {},
   tax_rate: 0,
@@ -36,23 +36,21 @@
   coupon_code: null,
   circuit_state: null,
   circuit_failure_count: null,
-  created_at: '2024-07-14T06:37:02.055Z',
-  updated_at: '2024-07-14T06:37:02.055Z',
+  created_at: '2024-10-24T08:49:13.158Z',
+  updated_at: '2024-10-24T08:49:13.158Z',
   reference: null,
   reference_origin: null,
   metadata: {},
   order: {
-    id: 'RKahzVaoKD',
+    id: 'gojhLAKmyK',
     type: 'orders',
-    formatted_subtotal_amount: '$79.40',
-    formatted_total_amount_with_taxes: '$79.40',
-    // More attributes
+    // More attributes...
   },
   item: {
     id: 'nkGgSKOxqL',
     type: 'skus',
     code: 'TSHIRTMS000000FFFFFFLXXX',
-    name: 'Black Men T-Shirt with White Logo (L)',
+    name: 'Men's Black T-Shirt with White Logo (L)',
     description: "This is THE classic t-shirt. Its fine jersey cotton construction makes it extremely soft and comfortable to wear, so it's a good choice for a day-to-day outfit — it's durable and can withstand several washings while retaining its shape and color.",
     image_url: 'https://data.commercelayer.app/seed/images/skus/TSHIRTMS000000FFFFFFLXXX_FLAT.png',
     pieces_per_pack: null,
@@ -65,8 +63,9 @@
     updated_at: '2024-07-13T05:07:32.977Z',
     reference: 'sku_215',
     reference_origin: 'CLI',
+    jwt_custom_claim: null,
     metadata: {}
   }
 }
 
-Successfully created new resource of type line_items with id eYRtOdrjDq
+Successfully created new resource of type line_items with id JbZtxdXOOj

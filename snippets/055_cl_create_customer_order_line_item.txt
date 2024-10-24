@@ -1,0 +1,13 @@
+> cl create line_item -a quantity=1 -r order=last item=skus/last -f quantity formatted_unit_amount formatted_total_amount order orders/id item skus/id
+
+{
+  id: 'QjYtneXwKo',
+  type: 'line_items',
+  quantity: 1,
+  formatted_unit_amount: '$39.70',
+  formatted_total_amount: '$39.70',
+  order: { id: 'voJhMEekWm', type: 'orders' },
+  item: { id: 'nkGgSKOxqL', type: 'skus' }
+}
+
+Successfully created new resource of type line_items with id QjYtneXwKo

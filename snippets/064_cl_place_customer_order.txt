@@ -1,0 +1,5 @@
+> cl update order last -a _place=true -f status payment_status
+
+{ id: 'voJhMEekWm', type: 'orders', status: 'placed', payment_status: 'authorized' }
+
+Successfully updated resource of type orders with id voJhMEekWm

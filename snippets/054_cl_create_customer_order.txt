@@ -1,0 +1,12 @@
+> cl app:switch -a customer
+> cl create order -i customer market -f guest customer_email market markets/id
+
+{
+  id: 'voJhMEekWm',
+  type: 'orders',
+  guest: false,
+  customer_email: 'john@example.com',
+  market: { id: 'AonEVhabyl', type: 'markets' }
+}
+
+Successfully created new resource of type orders with id voJhMEekWm

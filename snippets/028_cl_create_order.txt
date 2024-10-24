@@ -2,9 +2,10 @@
 
 Refreshing access token ...... done
 {
-  id: 'RKahzVaoKD',
+  id: 'gojhLAKmyK',
   type: 'orders',
-  number: 64766720,
+  number: 70990338,
+  affiliate_code: null,
   autorefresh: true,
   place_async: false,
   status: 'draft',
@@ -19,4 +20,4 @@ Refreshing access token ...... done
   // More attributes...
 }
 
-Successfully created new resource of type orders with id RKahzVaoKD
+Successfully created new resource of type orders with id gojhLAKmyK

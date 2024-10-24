@@ -1,0 +1,33 @@
+> cl update order last -a _customer_payment_source_id=VDNoNsZGpL -i payment_source -f payment_source
+
+{
+  id: 'voJhMEekWm',
+  type: 'orders',
+  payment_source: {
+    id: 'YbdOSVXren',
+    type: 'stripe_payments',
+    stripe_id: 'pi_3QDNh2IvFzjMJOyZ2Lq6y89u',
+    client_secret: 'pi_3QDNh2IvFzjMJOyZ2Lq6y89u_secret_0YMk1MvKV3croSnpjz0cxLkLt',
+    charge_id: null,
+    publishable_key: 'pk_test_51Pc407IvFzjMJOyZ1T8IRpnamtl6T6u9adAQ0QnzR691TNIYjYPuIw1LLBW7MAbq0MSa6sLDHegTJ1aGL4QK0fbN00DUHh2t2G',
+    options: { intent_amount_cents: 5067 },
+    payment_method: {},
+    mismatched_amounts: false,
+    return_url: null,
+    receipt_email: null,
+    payment_instrument: {
+      issuer_type: 'card',
+      card_type: 'mastercard',
+      card_last_digits: '4444',
+      card_expiry_month: '10',
+      card_expiry_year: '2025'
+    },
+    created_at: '2024-10-24T09:51:00.577Z',
+    updated_at: '2024-10-24T09:51:00.577Z',
+    reference: null,
+    reference_origin: null,
+    metadata: {}
+  }
+}
+
+Successfully updated resource of type orders with id voJhMEekWm

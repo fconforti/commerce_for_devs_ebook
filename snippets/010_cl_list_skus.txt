@@ -6,7 +6,7 @@ Fetching skus... done
     id: 'nkGgSKOxqL',
     type: 'skus',
     code: 'TSHIRTMS000000FFFFFFLXXX',
-    name: 'Black Men T-Shirt with White Logo (L)',
+    name: 'Men's Black T-Shirt with White Logo (L)',
     description: "This is THE classic t-shirt. Its fine jersey cotton construction makes it extremely soft and comfortable to wear, so it's a good choice for a day-to-day outfit — it's durable and can withstand several washings while retaining its shape and color.",
     image_url: 'https://data.commercelayer.app/seed/images/skus/TSHIRTMS000000FFFFFFLXXX_FLAT.png',
     pieces_per_pack: null,

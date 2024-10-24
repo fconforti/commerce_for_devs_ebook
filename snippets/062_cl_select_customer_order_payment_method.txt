@@ -1,0 +1,31 @@
+> cl update order last -r payment_method=wEZLZsKdak -f payment_method
+
+{
+  id: 'voJhMEekWm',
+  type: 'orders',
+  payment_method: {
+    id: 'wEZLZsKdak',
+    type: 'payment_methods',
+    name: 'Stripe Payment',
+    payment_source_type: 'stripe_payments',
+    currency_code: 'USD',
+    moto: false,
+    require_capture: true,
+    auto_place: false,
+    auto_capture: false,
+    price_amount_cents: 0,
+    price_amount_float: 0,
+    formatted_price_amount: '$0.00',
+    auto_capture_max_amount_cents: null,
+    auto_capture_max_amount_float: null,
+    formatted_auto_capture_max_amount: null,
+    disabled_at: null,
+    created_at: '2024-07-13T11:32:04.980Z',
+    updated_at: '2024-07-13T11:32:04.980Z',
+    reference: null,
+    reference_origin: null,
+    metadata: {}
+  }
+}
+
+Successfully updated resource of type orders with id voJhMEekWm
