@@ -1,0 +1,34 @@
+> cl retrieve shipment YVNXCOXRbm -i stock_location shipment_line_items -f stock_location shipment_line_items
+
+{
+  id: 'YVNXCOXRbm',
+  type: 'shipments',
+  stock_location: {
+    id: 'bkEeQuYLyk',
+    type: 'stock_locations',
+    number: 20701,
+    name: 'US Warehouse',
+    code: null,
+    label_format: 'PDF',
+    suppress_etd: false,
+    created_at: '2024-07-12T15:01:50.467Z',
+    updated_at: '2024-07-12T15:01:50.467Z',
+    reference: 'stock_location_2',
+    reference_origin: 'CLI',
+    metadata: {}
+  },
+  shipment_line_items: [
+    {
+      id: 'XkQRulqWEG',
+      type: 'shipment_line_items',
+      sku_code: 'TSHIRTMS000000FFFFFFLXXX',
+      bundle_code: null,
+      quantity: 2,
+      created_at: '2024-10-24T08:55:52.148Z',
+      updated_at: '2024-10-24T08:55:52.148Z',
+      reference: 'shelf position: A/23',
+      reference_origin: 'WMS',
+      metadata: {}
+    }
+  ]
+}

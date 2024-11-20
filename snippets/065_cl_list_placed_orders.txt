@@ -1,0 +1,29 @@
+> cl app:switch -a admin
+> cl list orders -w status_eq=placed -f status payment_status fulfillment_status guest customer_email formatted_total_amount_with_taxes placed_at
+
+[
+  {
+    id: 'gojhLAKmyK',
+    type: 'orders',
+    status: 'placed',
+    payment_status: 'authorized',
+    fulfillment_status: 'unfulfilled',
+    guest: true,
+    customer_email: 'john@example.com',
+    formatted_total_amount_with_taxes: '$94.34',
+    placed_at: '2024-10-24T09:14:41.144Z'
+  },
+  {
+    id: 'voJhMEekWm',
+    type: 'orders',
+    status: 'placed',
+    payment_status: 'authorized',
+    fulfillment_status: 'unfulfilled',
+    guest: false,
+    customer_email: 'john@example.com',
+    formatted_total_amount_with_taxes: '$50.67',
+    placed_at: '2024-10-24T09:51:36.692Z'
+  }
+]
+
+Records: 2 of 2 | Page: 1 of 1

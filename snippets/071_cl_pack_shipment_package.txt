@@ -1,0 +1,33 @@
+> cl create package -a name='Standard package' width=40 length=30 height=20 unit_of_length=in -r stock_location=bkEeQuYLyk
+
+{
+  id: 'zpmjlTlDzE',
+  type: 'packages',
+  name: 'Standard package',
+  code: null,
+  length: '30.0',
+  width: '40.0',
+  height: '20.0',
+  unit_of_length: 'in',
+  created_at: '2024-10-25T08:44:56.822Z',
+  updated_at: '2024-10-25T08:44:56.822Z',
+  reference: null,
+  reference_origin: null,
+  metadata: {},
+  stock_location: {
+    id: 'bkEeQuYLyk',
+    type: 'stock_locations',
+    number: 20701,
+    name: 'US Warehouse',
+    code: null,
+    label_format: 'PDF',
+    suppress_etd: false,
+    created_at: '2024-07-12T15:01:50.467Z',
+    updated_at: '2024-07-12T15:01:50.467Z',
+    reference: 'stock_location_2',
+    reference_origin: 'CLI',
+    metadata: {}
+  }
+}
+
+Successfully created new resource of type packages with id zpmjlTlDzE

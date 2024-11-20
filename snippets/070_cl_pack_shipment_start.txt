@@ -1,0 +1,5 @@
+> cl update shipment last -a _packing=true -f status
+
+{ id: 'YVNXCOXRbm', type: 'shipments', status: 'packing' }
+
+Successfully updated resource of type shipments with id YVNXCOXRbm

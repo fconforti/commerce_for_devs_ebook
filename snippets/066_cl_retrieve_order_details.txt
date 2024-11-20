@@ -1,0 +1,76 @@
+> cl retrieve order gojhLAKmyK -i line_items billing_address shipping_address shipments -f status payment_status fulfillment_status guest customer_email formatted_subtotal_amount formatted_shipping_amount formatted_total_tax_amount formatted_total_amount_with_taxes payment_source_details placed_at billing_address addresses/name shipping_address addresses/name line_items line_items/quantity,formatted_unit_amount,formatted_total_amount,name,item_type shipments shipments/status
+
+{
+  id: 'gojhLAKmyK',
+  type: 'orders',
+  status: 'placed',
+  payment_status: 'authorized',
+  fulfillment_status: 'unfulfilled',
+  guest: true,
+  customer_email: 'john@example.com',
+  formatted_subtotal_amount: '$79.40',
+  formatted_shipping_amount: '$7.00',
+  formatted_total_tax_amount: '$7.94',
+  formatted_total_amount_with_taxes: '$94.34',
+  payment_source_details: {
+    type: 'stripe_payment',
+    payment_method_id: 'pm_1QDN73IvFzjMJOyZso8OqWyW',
+    payment_method_type: 'card',
+    payment_method_details: {
+      brand: 'mastercard',
+      last4: '4444',
+      checks: { cvc_check: 'pass', address_line1_check: null, address_postal_code_check: null },
+      wallet: null,
+      country: 'US',
+      funding: 'credit',
+      exp_year: 2025,
+      networks: { available: [ 'mastercard' ], preferred: null },
+      exp_month: 10,
+      fingerprint: 'oy4PiO3fwLcwdn7U',
+      display_brand: 'mastercard',
+      generated_from: null,
+      three_d_secure_usage: { supported: true }
+    }
+  },
+  placed_at: '2024-10-24T09:14:41.144Z',
+  shipping_address: {
+    id: 'BvoVuajyYz',
+    type: 'addresses',
+    name: 'John Doe, 3645 Geneva Street, 10011 New York NY (US) +1.201.22.33.444'
+  },
+  billing_address: {
+    id: 'bzkouEXxxZ',
+    type: 'addresses',
+    name: 'John Doe, 3645 Geneva Street, 10011 New York NY (US) +1.201.22.33.444'
+  },
+  line_items: [
+    {
+      id: 'QjYtneXPAP',
+      type: 'line_items',
+      quantity: 1,
+      formatted_unit_amount: '$0.00',
+      formatted_total_amount: '$0.00',
+      name: 'Stripe Payment',
+      item_type: 'payment_methods'
+    },
+    {
+      id: 'oEntjpmxgp',
+      type: 'line_items',
+      quantity: 1,
+      formatted_unit_amount: '$7.00',
+      formatted_total_amount: '$7.00',
+      name: 'Shipment #70990338/S/001',
+      item_type: 'shipments'
+    },
+    {
+      id: 'JbZtxdXOOj',
+      type: 'line_items',
+      quantity: 2,
+      formatted_unit_amount: '$39.70',
+      formatted_total_amount: '$79.40',
+      name: 'Black Men T-Shirt with White Logo (L)',
+      item_type: 'skus'
+    }
+  ],
+  shipments: [ { id: 'YVNXCOXRbm', type: 'shipments', status: 'upcoming' } ]
+}
